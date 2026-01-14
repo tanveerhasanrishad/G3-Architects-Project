@@ -40,7 +40,8 @@
   border: none;
 }
 
-main {
+main,
+footer {
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -217,6 +218,19 @@ main > section {
   filter: grayscale(100%);
 }
 
+/* footer related styles */
+footer {
+  background-color: #fff4e7;
+  padding: 38px 0;
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 216px;
+}
+
+footer p {
+  font-size: 1.25rem;
+}
+
 /* responsive media query */
 
 @media screen and (max-width: 576px) {
@@ -225,6 +239,11 @@ main > section {
   .teams,
   .features {
     flex-direction: column;
+  }
+
+  footer {
+    margin-top: 60px;
+    margin-bottom: 20px;
   }
 
   .team-img-container,
@@ -263,6 +282,11 @@ main > section {
   #experience-badge {
     margin-top: 20px;
     margin-left: 20px;
+  }
+
+  footer {
+    margin-top: 60px;
+    margin-bottom: 20px;
   }
 
   .our-features {
